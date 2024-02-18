@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy";
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+/* #page1{
+  width: 100%;
+  height: 100%;
+  background-color: lightblue;
+}
+#box{
+  height: 300px;
+  width: 300px;
+  background-color: green;
+} */
+/* h1{
+  color: red;
+  font-size: 50px;
+}
+h2{
+  color: blue;
+  font-size: 40px;
+}
+h3{
+  color: green;
+  font-size: 30px;
+} */
+
+#main {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  position: relative;
+}
+#nav {
+  width: 100%;
+  height: 100px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* max-width: 1280px;
+  margin: 0 auto; */
+  padding: 0 30px;
+}
+#nav h3 {
+  text-transform: uppercase;
+}
+#nav h4 {
+  text-transform: uppercase;
+}
+
+img {
+  height: 65px;
+  /* mix-blend-mode: color-burn; */
+}
+#navbar2 {
+  display: flex;
+  gap: 45px;
+  cursor: pointer;
+}
+#navbar3 {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+#navbar3 button {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 15px 25px;
+}
+#main h1 {
+  font-size: 130px;
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#main h1 span {
+  background-color: brown;
+  font-size: 25px;
+  padding: 20px 40px;
+  border-radius: 50px;
+  margin: 0 30px;
+}
+
+#main h1:nth-child(2) {
+  color: red;
+  margin-top: 60px;
+}
+
+#main #left-img {
+  height: 200px;
+  position: absolute;
+  top: 18%;
+  left: 7%;
+  border-radius: 30px;
+}
+#main #right-img {
+  height: 200px;
+  position: absolute;
+  bottom: 14%;
+  right: 7%;
+  border-radius: 30px;
+}
+/* #main #left-img2 {
+  height: 200px;
+  position: absolute;
+  top: 10%;
+  right: 25%;
+  border-radius: 30px;
+}
+
+#main #right-img2 {
+  position: absolute;
+  height: 200px;
+  position: absolute;
+  bottom: 14%;
+  left: 11%;
+  border-radius: 30px;
+} */
+h5{
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%,0);
+  font-size: 25px;
+}
